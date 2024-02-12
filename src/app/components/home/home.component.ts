@@ -5,7 +5,6 @@ import { SafePipe } from 'src/assets/pipe/safeUrl.pipe';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
   standalone: true,
   imports: [HeaderComponent, SafePipe],
 })
